@@ -6,7 +6,7 @@ class App extends React.PureComponent {
 	render() {
 		return (
 			<div>
-				<h1>Dope goys in the building</h1>
+				<h1>Hello World!</h1>
 			</div>
 		);
 	}
