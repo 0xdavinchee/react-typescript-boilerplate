@@ -3,26 +3,18 @@
 		"tslint-immutable"
 	],
 	"rules": {
-
 		"no-var-keyword": true,
 		"no-parameter-reassignment": true,
 		"typedef": false,
-	 
 		"readonly-keyword": false,
-
 		"readonly-array": false,
-
 		"no-let": false,
-
 		"no-array-mutation": true,
-
 		"no-object-mutation": false,
-	 
 		"no-this": false,
 		"no-class": false,
 		"no-mixed-interface": false,
 		"no-expression-statement": false,
-
 		"member-ordering": [
 			true,
 			"variables-before-functions"
@@ -71,15 +63,13 @@
 		"no-eval": true,
 		"strictPropertyInitialization": false,
 		"no-null-keyword": false,
-
 		"no-shadowed-variable": false,
-
 		"no-string-literal": false,
-
 		"no-switch-case-fall-through": true,
-
-		"no-unused-expression":  [true, "allow-fast-null-checks"],
-
+		"no-unused-expression": [
+			true,
+			"allow-fast-null-checks"
+		],
 		"no-use-before-declare": true,
 		"radix": true,
 		"switch-default": true,

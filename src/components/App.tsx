@@ -1,8 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import '../styles/index.css';
 
-class App extends React.PureComponent {
+export interface IAppProps {}
+
+export interface IAppState {
+	readonly Vehicle: IVehicle;
+}
+
+class App extends React.PureComponent<IAppProps, IAppState> {
 	render() {
 		return (
 			<div>
